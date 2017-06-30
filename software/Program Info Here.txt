@@ -1,0 +1,5 @@
+Default 3D Printer Program
+- Repetier-Host V1.0.6
+
+Default Arduino Program
+- Arduino 1.6.1
