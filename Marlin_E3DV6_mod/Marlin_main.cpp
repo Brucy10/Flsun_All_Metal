@@ -883,15 +883,15 @@ float z_probe() {
 		    current_position[E_AXIS]);
 
   feedrate = homing_feedrate[Z_AXIS];
-  destination[Z_AXIS] = mm+2;
+  destination[Z_AXIS] = mm+10;
   prepare_move_raw();
   return mm;
 }
 
 void calibrate_print_surface(float z_offset) {
-  for (int y = 3; y >= -3; y--) {
+  for (int y = 1; y >= -1; y--) {
     int dir = y % 2 ? -1 : 1;
-    for (int x = -3*dir; x != 4*dir; x += dir) {
+    for (int x = -1*dir; x != 2*dir; x += dir) {
       if (x*x + y*y < 11) {
 	destination[X_AXIS] = AUTOLEVEL_GRID * x - z_probe_offset[X_AXIS];
 	destination[Y_AXIS] = AUTOLEVEL_GRID * y - z_probe_offset[Y_AXIS];

@@ -83,7 +83,7 @@
 #define DELTA_SEGMENTS_PER_SECOND 160
 
 // Center-to-center distance of the holes in the diagonal push rods.
-#define DELTA_DIAGONAL_ROD 280 // mm
+#define DELTA_DIAGONAL_ROD 279.5 // mm
 
 // Horizontal offset from middle of printer to smooth rod center.
 #define DELTA_SMOOTH_ROD_OFFSET 186 // mm
@@ -355,7 +355,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 // For deltabots this means top and center of the cartesian print volume.
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 358  // For delta: Distance between nozzle and print surface after homing.
+#define MANUAL_Z_HOME_POS 330  // For delta: Distance between nozzle and print surface after homing.
 
 #define AUTOLEVEL_GRID 25  // Distance between autolevel Z probing points, should be less than print surface radius/3.
 
