@@ -13,3 +13,13 @@ Marlin_fanless_fixed_bed folder contains modified source code modified by the ma
 Marlin_E3DV6_mod folder contains modified source code by me to fix the invert Z-Stopper issue.
 
 I found out that the 3 fan design is redundant and replaced it with this fan design: https://www.thingiverse.com/thing:839620
+
+Steps to replace the fanless fan extruder with E3D V6.
+1. If your filament is loaded, heat up your extruder and remove the filament.
+2. Power off your 3D priter completely and remove USB cable.
+3. While waiting for the extruder to cool down, tighten all the screws and nuts for E3D V6. Make sure the thermostat is in place!
+4. Unplug extruder stepper motor wires and the extension wires that conenct the main board with extruder.
+5. Remove the semi-transparent tube that goes into extruder.
+6. Remove the extruder by removing 6 screws of that hold the entire extruder structure.
+7. Remove all the screws that hold the fanless extruder.
+8. Remove the extruder from the metal plate.
